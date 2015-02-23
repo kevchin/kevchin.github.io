@@ -2,9 +2,9 @@
 
 This repository is for web facing details.
 
-# Interesting Technologies...
+# Interesting Technologies
 
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 * [Vagrant](http://www.vagrantup.com/downloads.html).
 * [R](http://www.r-project.org/).
 * [Azure ML](http://azure.microsoft.com/en-us/services/machine-learning/).
