@@ -1,8 +1,113 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1><font face="verdana">Hello Internet</font></h1>
-<p>
-<font face="verdana">Placeholder for now</font></p>
-</body>
-</html>
+        <!DOCTYPE html>
+        <html>
+
+            <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                <title>R, Hadoop Development Environment using Vagrant</title>
+                <meta name="description" content="An introduction to using Vagrant to setup an R deveopment environment with Hadoop.">
+                <link rel="stylesheet" href="main.css">
+            </head>
+            <body>
+
+                <h1>GitHub Interests</h1>
+                <h2>Developing with R and Hadoop</h2>
+
+                <!--
+                    MADE WITH <3 AND JAVASCRIPT
+                -->
+
+                <p>
+                    As I've gotten more proficient with R and Hadoop, ironically, having a <em> consistent and reproducible</em> development environment is becoming <strong><em>more</em></strong> of a challenge.
+                    With the tool chain always improving and evolving, I always find some other library or resource management tool that promises to make my life easier. Sometimes it's even true ;).
+                    In some sense, the ever-changing libraries and technologies suggest a healthy toolchain with regular improvements to libraries and architecure. 
+                    But as a developer, I want consistency in my environment while I'm coding from one system to another; occasionally I feel I've spent more time configuring systems than developing systems.
+                    With the newest generation of tools for managing Virtual Machines (VM's), we now have a relatively easy way to easily create <em>portable</em> development environments. 
+                    </p>
+
+                <p>    
+                In this <a href="https://github.com/kevchin/vagrant"> Git Repository</a> , I leverage Vagrant, R, hadoop, and rhadoop to quickly build a consistent R development environment. It a nice way of having something that works and is easily provisioned. Great to run a couple of command, get a coffee and have a ready to use VM.
+
+                    </p>
+
+
+                <!--
+                    WHAT IS VAGRANT?
+                -->
+                         <!--
+                    GET STARTED WITH YOUR OWN FILES
+                -->
+
+                <h3>Hadoop, the Elephant in the Room</h3>
+                <p>
+                    With most large production Hadoop clusters, you likely have support resources to help manage the system but if you want to mimic this environment for development on another system (e.g. home), you're own your own.      
+                    I've used multiple Hadoop starter VM's from vendors but they don't allow me to easily customize a portable development environment.
+
+                    As the development environment extends into the infrastructure via Hadoop, we unfortunately get more involved in the minutae of Hadoop management. 
+                    Here is where Vagrant comes to the rescue. We use Vagrant to create a VM that has all the tools that we need to do what we need -- in this case R accessing Hadoop and HDFS. 
+                </p>
+
+                <p>
+                    Depending on your Big Data needs and production environment, you may be required to use map reduce streaming.  
+                    For the most part, I'll leave the Hadoop cluster management to others as long as I can efficiently access the data I need to draw insights.
+                </p>
+
+
+                <h3>Azure Machine Learning with R</h3>
+                <p>
+                    Azure ML supports R and easily enables me to scale out my experiments. 
+                    While it is <em>not</em> meant to replace R-Studio, it is another stable R environment that you can leverage. It has 100's of the most common R libraries already installed and ready to use. If you design your R code correctly, you can utilize a "scale-out" model for larger experiments. The basic visualizations are useful but for production work I still prefer to use ggplot.
+                </p>
+
+
+                <h3>Python scikit-learn</h3>
+
+                <p>
+                    Python libraries are increasingly powerful and with <a href="http://scikit-learn.org/stable/"> scikit-learn</a> you can use a number of ML algorithms that are accompanied with well documented <a href="http://scikit-learn.org/stable/auto_examples/index.html"> examples</a>. If you're familiar with the datasets and data wrangling, you can use those to get a good jump start on your experiments. I prefer simpler examples but rely on python and scikit-learn when I need to manipulate larger streams of data.
+                </p>
+
+                <!--
+                    LIVE PREVIEW
+                -->
+
+                <h2>Reference Material</h2>
+                <p>
+                    Some links that may be relevant to Vagrant, Hadoop, and R.
+                </p>
+
+                <ul>
+
+                    <li><a href="https://github.com/kevchin/vagrant">Vagrant Git Repro for R w/ Hadoop</a></li>
+                    <li><a href="https://vangjee.wordpress.com/2014/03/05/installing-a-single-node-hadoop-v2-3-0-instance-with-yarn-using-vagrant/">Vang Jee's Blog</a></li>
+                    <li><a href="https://github.com/vangj/vagrant-hadoop-2.3.0.git">Vang Jee's GitHub</a></li>
+                    <li><a href="http://docs.vagrantup.com/v2/getting-started/">Vagrant Getting Started</a></li>
+                    <li><a href="http://docs.vagrantup.com/v2/provisioning/basic_usage.html">Vagrant Provisioning</a></li>
+                    <li><a href="http://www.rstudio.com/products/rstudio/download-server/">RStudio Server</a></li>
+                    <li><a href="https://github.com/RevolutionAnalytics/RHadoop/wiki">Revolution Analytics RHadoop</a></li>
+                    <li><a href="https://github.com/RevolutionAnalytics/plyrmr/blob/master/docs/tutorial.md">Revolution Analytics plyrmr tutorial</a></li>
+                </ul>
+
+            </body>
+        </html>
+        <!--
+
+            [[[[[[[[[[[[[[[     ]]]]]]]]]]]]]]]
+            [::::::::::::::     ::::::::::::::]
+            [::::::::::::::     ::::::::::::::]
+            [::::::[[[[[[[:     :]]]]]]]::::::]
+            [:::::[                     ]:::::]
+            [:::::[                     ]:::::]
+            [:::::[                     ]:::::]
+            [:::::[                     ]:::::]
+            [:::::[    CODE THE WEB     ]:::::]
+            [:::::[  http://brackets.io ]:::::]
+            [:::::[                     ]:::::]
+            [:::::[                     ]:::::]
+            [:::::[                     ]:::::]
+            [:::::[                     ]:::::]
+            [::::::[[[[[[[:     :]]]]]]]::::::]
+            [::::::::::::::     ::::::::::::::]
+            [::::::::::::::     ::::::::::::::]
+            [[[[[[[[[[[[[[[     ]]]]]]]]]]]]]]]
+
+        -->
