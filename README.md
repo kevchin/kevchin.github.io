@@ -14,7 +14,7 @@ This repository is for web facing details.
 
 
 # Copyright Stuff
-Copyright 2015 KevChin
+Copyright 2015 kevchin
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
